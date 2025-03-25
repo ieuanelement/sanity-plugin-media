@@ -19,8 +19,9 @@ const ButtonAssetCopy = ({disabled, url}: Props) => {
       clearTimeout(refPopoverTimeout.current)
     }
 
+    const urlToCopy = url.replace('cdn.sanity.io', process.env.NEXT_PUBLIC_URL);
     setPopoverVisible(true)
-    copy(url)
+    copy(urlToCopy)
 
     refPopoverTimeout.current = setTimeout(() => {
       setPopoverVisible(false)
