@@ -56,7 +56,7 @@ yalc.lock
 ##npm package zips
 *.tgz
 
-# Compiled plugin
-dist
+# # Compiled plugin
+# dist
 
 .sanity
