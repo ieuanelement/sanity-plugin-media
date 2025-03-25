@@ -78,6 +78,7 @@
     "redux": "^5.0.1",
     "redux-observable": "3.0.0-rc.2",
     "rxjs": "^7.8.1",
+    "sanity-plugin-media": "^3.0.2",
     "zod": "^3.21.4"
   },
   "devDependencies": {
